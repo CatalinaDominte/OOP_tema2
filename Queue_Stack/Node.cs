@@ -8,8 +8,8 @@ namespace ConsoleApp1
 {
     class Node
     {
-        public string X { get; set; }
-        public Node NextNode { get; set; }
+        privat string X { get; set; }
+        privat Node NextNode { get; set; }
 
 
         public Node (string x)
